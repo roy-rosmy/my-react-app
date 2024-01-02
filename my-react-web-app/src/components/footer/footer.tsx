@@ -1,6 +1,6 @@
 // src/components/Footer/Footer.tsx
 import React, { FC } from 'react';
-import { SrcComponentsFooterWrapper } from './src/components/footer.styled';
+import { SrcComponentsFooterWrapper } from '../footer/footer.styled.ts';
 
 interface SrcComponentsFooterProps {}
 

@@ -1,11 +1,15 @@
 import React, { FC } from 'react';
-import { SrcComponentsAppWrapper } from './src/components/App.styled';
+import { SrcComponentsAppWrapper } from './App.styled.ts';
+import Footer from '../footer/footer.tsx';
+import SrcComponentsHeader from '../header/header.tsx';
 
 interface SrcComponentsAppProps {}
 
 const SrcComponentsApp: FC<SrcComponentsAppProps> = () => (
  <SrcComponentsAppWrapper data-testid="SrcComponentsApp">
-    SrcComponentsApp Component
+   <SrcComponentsHeader/>
+   
+   <Footer></Footer>
  </SrcComponentsAppWrapper>
 );
 
